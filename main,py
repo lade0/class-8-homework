@@ -1,0 +1,7 @@
+# making sure tyhe user is between the ages 10 and 20
+age=int(input("enter your age"))
+
+if age>=10 and age<=20:
+    print("you are entitled to my class")
+else:
+    print("you are not entitled to my class")
